@@ -1,0 +1,53 @@
+{
+  "_source": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory/smoking-areas.html",
+  "_publisher": "Changi Airport Group",
+  "_captured": "2026-09-17",
+  "_note": "Transcribed from Changi Airport Group's published list. Coordinates are the terminal building centroid (from OpenStreetMap aeroway=terminal), not the exact spot — every entry is flagged approx and carries CAG's own location wording, which is what you actually navigate by once you are inside.",
+  "terminals": {
+    "T1": { "lat": 1.36271, "lng": 103.99108 },
+    "T2": { "lat": 1.35379, "lng": 103.99045 },
+    "T3": { "lat": 1.35461, "lng": 103.98508 },
+    "T4": { "lat": 1.33879, "lng": 103.98427 }
+  },
+  "areas": [
+    { "t": "T1", "zone": "public", "level": "1", "where": "Arrival Kerbside, East — near Coach Stand" },
+    { "t": "T1", "zone": "public", "level": "2", "where": "Departure Kerbside, East — near door 5" },
+    { "t": "T1", "zone": "public", "level": "2", "where": "Departure Kerbside, West — near door 1" },
+
+    { "t": "T2", "zone": "public", "level": "1", "where": "Arrival Kerbside, South — near Lift Lobby 13/14" },
+    { "t": "T2", "zone": "public", "level": "1", "where": "Arrival Kerbside, North — near Lift Lobby 15/16" },
+    { "t": "T2", "zone": "public", "level": "2", "where": "Departure Kerbside, North — near Lift Lobby 15/16" },
+
+    { "t": "T3", "zone": "public", "level": "1", "where": "Arrival Kerbside, South — near Coach Stand" },
+    { "t": "T3", "zone": "public", "level": "1", "where": "Arrival Kerbside, North — near Lift Lobby PL12/13" },
+    { "t": "T3", "zone": "public", "level": "2", "where": "Departure Kerbside, North — near door 8" },
+    { "t": "T3", "zone": "public", "level": "2", "where": "Departure Kerbside, North — near door 1" },
+
+    { "t": "T4", "zone": "public", "level": "1", "where": "Arrival Kerbside, North — near coach lounge" },
+    { "t": "T4", "zone": "public", "level": "1", "where": "Arrival Kerbside, South — near door 4" },
+    { "t": "T4", "zone": "public", "level": "2", "where": "Departure Kerbside, South — near door 6" },
+
+    { "t": "T1", "zone": "transit", "level": "2", "where": "Departure — near Gate C16" },
+    { "t": "T1", "zone": "transit", "level": "2", "where": "Departure — near Gate D36" },
+    { "t": "T1", "zone": "transit", "level": "2", "where": "Departure — Outdoor Deck near Quick Bites" },
+    { "t": "T1", "zone": "transit", "level": "3", "where": "Departure — near Cactus Garden" },
+    { "t": "T1", "zone": "transit", "level": "3", "where": "Departure Central — near Snooze Lounge" },
+
+    { "t": "T2", "zone": "transit", "level": "2", "where": "Departure South Finger Pier — Pavilion Lounge" },
+    { "t": "T2", "zone": "transit", "level": "2", "where": "Departure South — next to GST refund counters" },
+    { "t": "T2", "zone": "transit", "level": "2", "where": "Departure North Finger Pier — Sanctuary Lounge" },
+    { "t": "T2", "zone": "transit", "level": "2", "where": "Departure North — next to Children's Play Area" },
+    { "t": "T2", "zone": "transit", "level": "3", "where": "Departure South — Sunflower Garden" },
+
+    { "t": "T3", "zone": "transit", "level": "2", "where": "Departure North, indoor — opposite Butterfly Garden" },
+    { "t": "T3", "zone": "transit", "level": "2", "where": "Departure South, indoor — Garden Terrace near Gates A1–A8, opposite Koi Pond" },
+    { "t": "T3", "zone": "transit", "level": "2", "where": "Departure South, outdoor — next to Gate A21" },
+    { "t": "T3", "zone": "transit", "level": "2", "where": "Departure North, outdoor — opposite Gate B10" },
+    { "t": "T3", "zone": "transit", "level": "2", "where": "Departure South, outdoor — Garden Terrace next to Gates A1–A8 and Koi Pond" },
+
+    { "t": "T4", "zone": "transit", "level": "2", "where": "Departure North — near Gate G4" },
+    { "t": "T4", "zone": "transit", "level": "2", "where": "Departure North — near Heritage" },
+    { "t": "T4", "zone": "transit", "level": "2", "where": "Departure North Pier — near Gate G16" },
+    { "t": "T4", "zone": "transit", "level": "2M", "where": "Departure North — near Lift Lobby 10/11" }
+  ]
+}

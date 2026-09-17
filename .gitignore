@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+
+# Large regenerable downloads — `npm run data:fetch` pulls these back.
+raw/osm_postcodes.json
+raw/nparks_nosmoking.geojson
+raw/postal_latlng.json
+
+# raw/geocache.json is deliberately NOT ignored: it holds the slow OneMap lookups
+# and keeping it means the 15-minute cold start only ever happens once.

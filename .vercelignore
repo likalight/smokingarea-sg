@@ -1,0 +1,5 @@
+# Only public/ is served. raw/ is ~16MB of source downloads used at build time by
+# scripts/, and none of it belongs in a deploy.
+raw/
+node_modules/
+netlify.toml

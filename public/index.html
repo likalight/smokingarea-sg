@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5">
+<title>smokingarea.sg — find the nearest legal spot</title>
+<meta name="description" content="Every designated smoking area and licensed cigarette retailer in Singapore, on one map. Built from NEA, HSA and OpenStreetMap open data.">
+<meta name="theme-color" content="#0a0b0e">
+<meta property="og:title" content="smokingarea.sg">
+<meta property="og:description" content="Find your nearest designated smoking area in Singapore — and where you're about to get fined.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0b0e'/%3E%3Crect x='6' y='18' width='16' height='6' rx='1.5' fill='%23eef0f4'/%3E%3Crect x='23' y='18' width='3' height='6' rx='1' fill='%23ff7a3d'/%3E%3Cpath d='M20 6c0 3-3 3-3 6' stroke='%238b919e' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div id="map" aria-label="Map of Singapore smoking areas"></div>
+
+<header class="topbar">
+  <a class="brand" href="./" aria-label="smokingarea.sg home">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+      <rect x="4" y="18" width="17" height="7" rx="1.5" class="cig-body"/>
+      <rect x="22" y="18" width="4" height="7" rx="1" class="cig-tip"/>
+      <path d="M19 5c0 3.2-3.2 3.2-3.2 6.4" class="cig-smoke"/>
+      <path d="M24 7c0 2.4-2.4 2.4-2.4 4.8" class="cig-smoke"/>
+    </svg>
+    <span class="brand-text">smokingarea<span class="brand-tld">.sg</span></span>
+  </a>
+  <div class="topbar-actions">
+    <button class="icon-btn" id="themeBtn" title="Switch theme" aria-label="Switch theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+    </button>
+    <button class="icon-btn" id="aboutBtn" title="The rules &amp; the data" aria-label="About">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.6v.6"/></svg>
+    </button>
+  </div>
+</header>
+
+<button class="fab" id="locateBtn" aria-label="Find my location">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><circle cx="12" cy="12" r="7.5"/><path d="M12 1.6v3M12 19.4v3M22.4 12h-3M4.6 12h-3"/></svg>
+</button>
+
+<!-- ============ panel: bottom sheet on phones, sidebar on desktop ============ -->
+<section class="sheet" id="sheet" aria-label="Places near you">
+  <button class="grabber" id="grabber" aria-label="Expand or collapse the list"><span></span></button>
+
+  <div class="sheet-fixed">
+    <div class="searchrow">
+      <svg class="search-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="search" type="search" placeholder="Search a mall, block or MRT…" autocomplete="off" spellcheck="false" aria-label="Search places">
+      <button class="clear-btn" id="clearBtn" hidden aria-label="Clear search">&times;</button>
+    </div>
+
+    <div class="chips" role="tablist" aria-label="What to show">
+      <button class="chip chip-smoke is-on" data-layer="smoke" role="tab" aria-selected="true">
+        <i class="dot"></i>Smoking areas<b id="cSmoke">–</b>
+      </button>
+      <button class="chip chip-venue is-on" data-layer="venue" role="tab" aria-selected="true">
+        <i class="dot"></i>Smoking corners<b id="cVenue">–</b>
+      </button>
+      <button class="chip chip-shop" data-layer="shop" role="tab" aria-selected="false">
+        <i class="dot"></i>Buy cigarettes<b id="cShop">–</b>
+      </button>
+      <button class="chip chip-zone is-on" data-layer="zone" role="tab" aria-selected="true">
+        <i class="dot"></i>No-smoking zones
+      </button>
+    </div>
+
+    <div class="subchips" id="subchips" hidden></div>
+    <div class="banner" id="banner" hidden></div>
+  </div>
+
+  <div class="sheet-scroll" id="scroll">
+    <div class="hero" id="hero" hidden></div>
+    <ul class="list" id="list" aria-live="polite"></ul>
+    <div class="empty" id="empty" hidden></div>
+    <footer class="credits">
+      <p><b>Data:</b> designated smoking areas &amp; no-smoking zone from
+        <a href="https://data.gov.sg/collections/1442/view" target="_blank" rel="noopener">NEA</a>,
+        park boundaries from <a href="https://data.gov.sg/datasets/d_3c8343c1efaeb05d4d1dbcdd0f599077/view" target="_blank" rel="noopener">NParks</a>,
+        licensed retailers from <a href="https://data.gov.sg/datasets/d_c5822c4f3e210a3b0625e49b3faaac09/view" target="_blank" rel="noopener">HSA</a>
+        — all via data.gov.sg under the
+        <a href="https://data.gov.sg/open-data-licence" target="_blank" rel="noopener">Singapore Open Data Licence</a>.
+        Community spots &amp; geometry from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (ODbL).
+        Basemap &copy; <a href="https://www.onemap.gov.sg/" target="_blank" rel="noopener">OneMap</a> / Singapore Land Authority.</p>
+      <p class="tiny">Unofficial, community-run and not affiliated with NEA, HSA or NParks. Locations can change — the sign on the ground always wins. <b>You must be 21+ to buy or use tobacco in Singapore.</b></p>
+      <p class="tiny" id="built"></p>
+    </footer>
+  </div>
+</section>
+
+<!-- ============ detail card ============ -->
+<div class="detail" id="detail" hidden role="dialog" aria-modal="false" aria-label="Place details">
+  <button class="detail-close" id="detailClose" aria-label="Close">&times;</button>
+  <div id="detailBody"></div>
+</div>
+
+<!-- ============ about modal ============ -->
+<div class="modal" id="about" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+    <button class="detail-close" id="aboutClose" aria-label="Close">&times;</button>
+    <h2 id="aboutTitle">Know the rules first</h2>
+
+    <div class="rule">
+      <h3>Where you <em class="no">can't</em> smoke</h3>
+      <p>Singapore bans smoking in over 32,000 places. As a rule of thumb: if it has a roof, is used by the public, or is a queue, a bus stop, a lift lobby, an overhead bridge, a covered walkway or within 5 m of most building entrances — don't.</p>
+      <p>Since 1 Oct 2022 that also covers <b>all public parks, gardens, beaches and reservoirs</b> (the red areas on the map).</p>
+      <p><b>The red areas are not the whole story.</b> They're drawn from NParks' published boundaries, so land run by someone else — Gardens by the Bay, Marina Barrage, Sentosa, HDB void decks, private grounds — shows up blank even though smoking is banned there too. An empty map is not permission.</p>
+    </div>
+
+    <div class="rule">
+      <h3>The Orchard Road No-Smoking Zone</h3>
+      <p>Since 1 Jan 2019 the whole of Orchard Road is a No-Smoking Zone. Inside the amber outline, smoking is an offence <em>everywhere</em> except inside one of the <b>52 yellow-box Designated Smoking Areas</b> — the official pins on this map, each with NEA's own photo of the box.</p>
+    </div>
+
+    <div class="rule">
+      <h3>What it costs</h3>
+      <p>A composition fine of <b>S$200</b>, or up to <b>S$1,000</b> if you're taken to court. Littering a cigarette butt is a separate offence starting at S$300.</p>
+    </div>
+
+    <div class="rule">
+      <h3>Age &amp; vapes</h3>
+      <p>The minimum legal age for buying, using or possessing tobacco is <b>21</b>. E-cigarettes and vapes are <b>completely illegal</b> in Singapore — possession alone is an offence, and none of the shops on this map may legally sell them.</p>
+    </div>
+
+    <div class="rule">
+      <h3>Why isn't this just Google Maps?</h3>
+      <p>Because Google won't let it be. Google's Maps Platform terms forbid storing their Places content or drawing it on a non-Google map — and this map is built on OneMap and OpenStreetMap. So nothing here is scraped from Google, and every spot links straight out to Google Maps instead, live, where the reviews and photos actually live.</p>
+      <p>Use both: this map for the official lists and the rules, Google for opening hours and whether the place still exists.</p>
+    </div>
+
+    <div class="rule">
+      <h3>Where the spots come from</h3>
+      <p><b>NEA</b> publishes the 52 Orchard yellow boxes. <b>Changi Airport Group</b> publishes 32 more across the four terminals — the only other operator in Singapore that publishes a list at all. Everything else is <b>OpenStreetMap contributors</b>: a handful of mapped smoking areas, plus 61 hawker centres, coffee shops, bars and offices that someone tagged as having a smoking corner.</p>
+      <p>That last group is the least reliable thing on this map. Nobody re-checks it, so treat it as a lead, not a promise.</p>
+    </div>
+
+    <div class="rule">
+      <h3>How complete is this?</h3>
+      <p>The 52 <b>official</b> smoking areas are NEA's full published list — they only exist inside the Orchard Road zone. Elsewhere in Singapore, smoking corners at coffee shops, offices and industrial estates are set up by the premises owner and there is no national register, so those come from <b>OpenStreetMap contributors</b> and are far from complete. Spot one that's missing? <a href="https://www.openstreetmap.org/note/new" target="_blank" rel="noopener">Drop a note on OpenStreetMap</a> and it'll flow into this map on the next rebuild.</p>
+      <p>The <b>4,000+ shops</b> are every outlet holding a current HSA tobacco retail licence — that's the legal answer to "who can sell me cigarettes", though opening hours and whether they're still trading aren't in the register.</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

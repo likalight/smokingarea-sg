@@ -1,0 +1,275 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-16T17:11:51Z",
+    "timestamp_areas_base": "2026-09-14T22:47:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 26561741,
+  "center": {
+    "lat": 1.3627078,
+    "lon": 103.9910807
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "80",
+    "addr:postcode": "819642",
+    "addr:street": "Airport Boulevard",
+    "aeroway": "terminal",
+    "building": "yes",
+    "building:levels": "3",
+    "building:levels:underground": "3",
+    "height": "30",
+    "layer": "2",
+    "name": "Changi Airport Terminal 1",
+    "name:en": "Changi Airport Terminal 1",
+    "name:zh": "樟宜机场1号航站楼",
+    "shop": "mall",
+    "short_name": "Terminal 1",
+    "short_name:zh": "1号航站楼",
+    "source": "Bing",
+    "start_date": "1981",
+    "wheelchair": "yes",
+    "wikidata": "Q55721632"
+  }
+},
+{
+  "type": "way",
+  "id": 32980746,
+  "center": {
+    "lat": 1.4189795,
+    "lon": 103.8643415
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "554",
+    "addr:postcode": "797792",
+    "addr:street": "West Camp Road",
+    "aeroway": "terminal",
+    "building": "yes",
+    "old_name": "Seletar Airport Passenger Terminal Building"
+  }
+},
+{
+  "type": "way",
+  "id": 173010412,
+  "center": {
+    "lat": 1.3537945,
+    "lon": 103.9904486
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "60",
+    "addr:postcode": "819643",
+    "addr:street": "Airport Boulevard",
+    "aeroway": "terminal",
+    "building": "yes",
+    "foot": "yes",
+    "height": "30",
+    "layer": "2",
+    "name": "Changi Airport Terminal 2",
+    "name:en": "Changi Airport Terminal 2",
+    "name:zh-Hans": "樟宜机场2号航站楼",
+    "name:zh-Hant": "樟宜機場2號航站楼",
+    "shop": "mall",
+    "short_name": "Terminal 2",
+    "short_name:zh-Hans": "2号航站楼",
+    "short_name:zh-Hant": "2號航站楼",
+    "source": "Bing;Esri",
+    "start_date": "1990",
+    "wheelchair": "yes",
+    "wikidata": "Q55721633"
+  }
+},
+{
+  "type": "way",
+  "id": 173010413,
+  "center": {
+    "lat": 1.3546069,
+    "lon": 103.9850767
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "65",
+    "addr:postcode": "819663",
+    "addr:street": "Airport Boulevard",
+    "aeroway": "terminal",
+    "building": "yes",
+    "building:part": "yes",
+    "foot": "yes",
+    "height": "30",
+    "name": "Changi Airport Terminal 3",
+    "name:en": "Changi Airport Terminal 3",
+    "name:zh": "樟宜机场3号航站楼",
+    "shop": "mall",
+    "short_name": "Terminal 3",
+    "short_name:zh": "3号航站楼",
+    "start_date": "2008",
+    "wheelchair": "yes",
+    "wikidata": "Q21974333"
+  }
+},
+{
+  "type": "way",
+  "id": 409015814,
+  "center": {
+    "lat": 1.3387860,
+    "lon": 103.9842694
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "10",
+    "addr:postcode": "819665",
+    "addr:street": "Airport Boulevard",
+    "aeroway": "terminal",
+    "building": "transportation",
+    "building:levels": "3",
+    "name": "Changi Airport Terminal 4",
+    "name:en": "Changi Airport Terminal 4",
+    "name:zh-Hans": "樟宜机场4号航站楼",
+    "name:zh-Hant": "樟宜機場4號航站楼",
+    "operator": "Changi Group",
+    "short_name": "Terminal 4",
+    "short_name:zh-Hans": "4号航站楼",
+    "short_name:zh-Hant": "4號航站楼",
+    "start_date": "10/2017",
+    "website": "https://www.changiairport.com/en/at-changi/terminal-guides/terminal-4.html",
+    "wheelchair": "yes",
+    "wikidata": "Q21044469",
+    "wikipedia": "en:Singapore Changi Airport Terminal 4"
+  }
+},
+{
+  "type": "way",
+  "id": 628368920,
+  "center": {
+    "lat": 1.4145539,
+    "lon": 103.8714874
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "21",
+    "addr:postcode": "797405",
+    "addr:street": "Seletar Aerospace Road 1",
+    "aeroway": "terminal",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Seletar Airport Passenger Terminal"
+  }
+},
+{
+  "type": "way",
+  "id": 680650600,
+  "center": {
+    "lat": 1.3492423,
+    "lon": 103.9866966
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "1",
+    "addr:postcode": "818937",
+    "addr:street": "T2 VIP Drive",
+    "aeroway": "terminal",
+    "building": "yes",
+    "height": "30",
+    "name": "Changi Airport VIP Complex",
+    "wikidata": "Q55721633"
+  }
+},
+{
+  "type": "way",
+  "id": 683354842,
+  "center": {
+    "lat": 1.3326389,
+    "lon": 103.9958423
+  },
+  "tags": {
+    "aeroway": "terminal",
+    "building": "construction",
+    "construction": "aeroway",
+    "name": "Changi Airport Terminal 5",
+    "name:en": "Changi Airport Terminal 5",
+    "name:ms": "Terminal 5 Lapangan Terbang Changi",
+    "name:zh": "樟宜机场5号航站楼",
+    "note": "Phase 1"
+  }
+},
+{
+  "type": "way",
+  "id": 683354843,
+  "center": {
+    "lat": 1.3460356,
+    "lon": 104.0009362
+  },
+  "tags": {
+    "aeroway": "terminal",
+    "building": "construction",
+    "construction": "aeroway",
+    "name": "Changi Airport Terminal 5",
+    "name:en": "Changi Airport Terminal 5",
+    "name:zh": "樟宜机场5号航站楼",
+    "note": "Phase 1"
+  }
+},
+{
+  "type": "way",
+  "id": 744653030,
+  "center": {
+    "lat": 1.3636695,
+    "lon": 103.9915231
+  },
+  "tags": {
+    "aeroway": "terminal",
+    "building": "yes",
+    "layer": "3",
+    "level": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1304768091,
+  "center": {
+    "lat": 1.3535177,
+    "lon": 103.9014607
+  },
+  "tags": {
+    "aeroway": "terminal",
+    "building": "yes",
+    "layer": "-1",
+    "name": "The Arrival Hall"
+  }
+},
+{
+  "type": "relation",
+  "id": 2338614,
+  "center": {
+    "lat": 1.4141239,
+    "lon": 103.8633634
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "515",
+    "addr:postcode": "797695",
+    "addr:street": "West Camp Road",
+    "aeroway": "terminal",
+    "building": "commercial",
+    "name": "Singapore Youth Flying Club",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

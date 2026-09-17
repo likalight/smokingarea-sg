@@ -1,0 +1,1421 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-16T17:09:51Z",
+    "timestamp_areas_base": "2026-09-14T22:47:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 369548445,
+  "lat": 1.3740336,
+  "lon": 103.8869870,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:street": "Hougang Avenue 8",
+    "air_conditioning": "yes",
+    "amenity": "fast_food",
+    "brand": "麦当劳",
+    "brand:en": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "brand:zh": "麦当劳",
+    "brand:zh-Hans": "麦当劳",
+    "check_date": "2023-06-22",
+    "cuisine": "burger",
+    "delivery": "yes",
+    "diet:halal": "yes",
+    "diet:meat": "yes",
+    "diet:vegetarian": "yes",
+    "drive_through": "no",
+    "highchair": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "McDonalds WiFi",
+    "level": "0",
+    "name": "McDonald's",
+    "name:en": "McDonald's",
+    "name:zh": "麦当劳",
+    "name:zh-Hans": "麦当劳",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes",
+    "payment:grabpay": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "smoking": "isolated",
+    "source": "survey",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 615151178,
+  "lat": 1.4588211,
+  "lon": 103.8292889,
+  "tags": {
+    "amenity": "restaurant",
+    "capacity": "100",
+    "cuisine": "american",
+    "name": "Terror Club",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 650025292,
+  "lat": 1.2896733,
+  "lon": 103.8439308,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "30",
+    "addr:postcode": "058282",
+    "addr:street": "Merchant Road",
+    "amenity": "pub",
+    "check_date": "2025-05-28",
+    "indoor_seating": "yes",
+    "microbrewery": "yes",
+    "name": "Brewerkz",
+    "outdoor_seating": "yes",
+    "smoking": "separated",
+    "website": "https://www.brewerkz.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 965873727,
+  "lat": 1.2472686,
+  "lon": 103.8398800,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "098537",
+    "addr:street": "Cove Avenue Circus",
+    "addr:unit": "#02-14",
+    "amenity": "bar",
+    "cuisine": "burger;sandwich;fish_and_chips",
+    "email": "embtm@embtm.com.sg",
+    "name": "eM By The Marina",
+    "opening_hours:url": "https://www.facebook.com/pg/eMBTMSG/about/?",
+    "outdoor_seating": "yes",
+    "phone": "+65 6271 2802",
+    "smoking": "separated",
+    "website": "https://www.facebook.com/eMBTMSG/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1950182530,
+  "lat": 1.2818086,
+  "lon": 103.8448952,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "268",
+    "addr:postcode": "058817",
+    "addr:street": "South Bridge Road",
+    "amenity": "cafe",
+    "email": "info@nanyangoldcoffee.com",
+    "indoor_seating": "yes",
+    "internet_access": "no",
+    "name": "Nanyang Old Coffee",
+    "name:en": "Nanyang Old Coffee",
+    "name:zh": "南洋老咖啡",
+    "opening_hours": "Mo-Su 07:00-21:45",
+    "outdoor_seating": "yes",
+    "phone": "+65 6100 3450",
+    "smoking": "yes",
+    "website": "https://nanyangoldcoffee.com/",
+    "wheelchair": "no",
+    "wifi": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2424592455,
+  "lat": 1.2846154,
+  "lon": 103.8609330,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "018971",
+    "addr:street": "Bayfront Avenue",
+    "addr:unit": "Marina Bay Sands North Tower",
+    "amenity": "bar",
+    "food": "yes",
+    "name": "CÉ LA VI",
+    "name:it": "Cé La Vi",
+    "outdoor_seating": "yes",
+    "phone": "+65 6688 7688",
+    "smoking": "yes",
+    "website": "https://sg.celavi.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3247461146,
+  "lat": 1.3412375,
+  "lon": 103.8451825,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "chicken",
+    "internet_access": "no",
+    "name": "Hawker Centre",
+    "smoking": "separated"
+  }
+},
+{
+  "type": "node",
+  "id": 3355457221,
+  "lat": 1.3421238,
+  "lon": 103.6928176,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "964",
+    "addr:postcode": "640964",
+    "addr:street": "Jurong West Street 91",
+    "amenity": "food_court",
+    "internet_access": "no",
+    "name": "NTI Food Court",
+    "opening_hours": "24/7",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "node",
+  "id": 3421881023,
+  "lat": 1.3422100,
+  "lon": 103.6928090,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "964",
+    "addr:postcode": "640964",
+    "addr:street": "Jurong West Street 91",
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "name": "Good Fortune Seafood",
+    "opening_hours": "Mo-Su 16:00-02:00",
+    "phone": "+65 63970480",
+    "smoking": "isolated",
+    "website": "https://goodfortuneseafood.oddle.me/en_SG/"
+  }
+},
+{
+  "type": "node",
+  "id": 3527776022,
+  "lat": 1.2857711,
+  "lon": 103.8266235,
+  "tags": {
+    "amenity": "food_court",
+    "cuisine": "chinese",
+    "name": "Happy Hawkers",
+    "name:zh": "喜多福",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 3828293357,
+  "lat": 1.3104292,
+  "lon": 103.7964163,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "43",
+    "addr:postcode": "278115",
+    "addr:street": "Jalan Merah Saga",
+    "addr:unit": "#01-78",
+    "amenity": "fast_food",
+    "cuisine": "ice_cream",
+    "name": "The Daily Scoop",
+    "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-22:30; Su14:00-22:00",
+    "phone": "+65 6475 3128",
+    "smoking": "outside",
+    "source": "Kaart Ground Survey 2017",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4302905836,
+  "lat": 1.3317706,
+  "lon": 103.8792945,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "401",
+    "addr:postcode": "368125",
+    "addr:street": "Macpherson Road",
+    "air_conditioning": "yes",
+    "brand": "Ibis Styles",
+    "brand:wikidata": "Q3147425",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Ibis Styles Singapore On Macpherson",
+    "reservation": "yes",
+    "rooms": "298",
+    "smoking": "isolated",
+    "source": "Kaart Ground Survey 2017",
+    "tourism": "hotel",
+    "website": "https://www.accorhotels.com/9411"
+  }
+},
+{
+  "type": "node",
+  "id": 4400861587,
+  "lat": 1.2869466,
+  "lon": 103.8102072,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "28",
+    "addr:postcode": "151028",
+    "addr:street": "Hoy Fatt Road",
+    "amenity": "restaurant",
+    "capacity": "30",
+    "cuisine": "Nasi_Padang",
+    "name": "Istimawa Nasi Padang",
+    "opening_hours": "10:00-15:00",
+    "smoking": "separated",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4430082850,
+  "lat": 1.2770082,
+  "lon": 103.8418933,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "080001",
+    "addr:street": "Cantonment Road",
+    "amenity": "restaurant",
+    "cuisine": "fried_chicken",
+    "name": "Two Wings",
+    "opening_hours": "11:30-21:30",
+    "smoking": "separated",
+    "website": "http://www.twowings.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 4576711390,
+  "lat": 1.3331839,
+  "lon": 103.9263605,
+  "tags": {
+    "amenity": "food_court",
+    "name": "Bedok North Eating House",
+    "outdoor_seating": "yes",
+    "smoking": "separated"
+  }
+},
+{
+  "type": "node",
+  "id": 4631679474,
+  "lat": 1.3024031,
+  "lon": 103.7925841,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "60",
+    "addr:postcode": "138672",
+    "addr:street": "Biopolis Street",
+    "amenity": "cafe",
+    "cuisine": "cafe/diner",
+    "internet_access": "no",
+    "internet_access:fee": "no",
+    "name": "Nanyang Old Coffee",
+    "outdoor_seating": "yes",
+    "smoking": "separated"
+  }
+},
+{
+  "type": "node",
+  "id": 4715290933,
+  "lat": 1.3236266,
+  "lon": 103.8103227,
+  "tags": {
+    "addr:street": "Coronation Road",
+    "addr:unit": "#01-03",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "name:en": "Starbucks",
+    "name:zh": "星巴克",
+    "official_name": "Starbucks Coffee",
+    "operator": "Starbucks",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "source": "Kaart Ground Survey 2017",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4791338046,
+  "lat": 1.3404760,
+  "lon": 103.8465359,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "delivery": "no",
+    "name": "Coffee Shiop",
+    "outdoor_seating": "yes",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "node",
+  "id": 5023357603,
+  "lat": 1.2988686,
+  "lon": 103.8540025,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2025-03-22",
+    "cuisine": "coffee_shop",
+    "indoor_seating": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "level": "0-1",
+    "name": "Fame Coffee",
+    "opening_hours": "Mo-Th,Su 08:00-19:00; Fr-Sa 08:00-20:00",
+    "outdoor_seating": "no",
+    "smoking": "outside",
+    "toilets": "yes",
+    "toilets:access": "customers",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5070719036,
+  "lat": 1.2883958,
+  "lon": 103.8154811,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "75D",
+    "addr:postcode": "154075",
+    "addr:street": "Redhill Road",
+    "addr:unit": "01-94",
+    "amenity": "food_court",
+    "cuisine": "chinese thai",
+    "delivery": "no",
+    "name": "Chang Cheng Foodcourt",
+    "opening_hours": "24/7",
+    "smoking": "outside",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5403432638,
+  "lat": 1.2950936,
+  "lon": 103.8417549,
+  "tags": {
+    "addr:postcode": "238325",
+    "name": "Tusitala Books",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-19:00",
+    "phone": "+65 6836 4030",
+    "smoking": "isolated",
+    "website": "https://tusitalabooks.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5474435679,
+  "lat": 1.3131549,
+  "lon": 103.7657008,
+  "tags": {
+    "air_conditioning": "no",
+    "amenity": "food_court",
+    "diet:vegetarian": "yes",
+    "name": "VariNice Eating House",
+    "outdoor_seating": "yes",
+    "smoking": "separated"
+  }
+},
+{
+  "type": "node",
+  "id": 5547694321,
+  "lat": 1.3550127,
+  "lon": 103.9898848,
+  "tags": {
+    "amenity": "smoking_area",
+    "name": "Smoking Room"
+  }
+},
+{
+  "type": "node",
+  "id": 5547694421,
+  "lat": 1.3540476,
+  "lon": 103.9894079,
+  "tags": {
+    "amenity": "smoking_area",
+    "name": "Smoking Room"
+  }
+},
+{
+  "type": "node",
+  "id": 5593553722,
+  "lat": 1.3392148,
+  "lon": 103.9833879,
+  "tags": {
+    "amenity": "smoking_area",
+    "name": "Smoking room"
+  }
+},
+{
+  "type": "node",
+  "id": 5593558522,
+  "lat": 1.3368821,
+  "lon": 103.9834926,
+  "tags": {
+    "amenity": "smoking_area",
+    "name": "Smoking room"
+  }
+},
+{
+  "type": "node",
+  "id": 5646689831,
+  "lat": 1.3508384,
+  "lon": 103.8505525,
+  "tags": {
+    "amenity": "food_court",
+    "name": "Gourmet Express",
+    "opening_hours": "24/7",
+    "smoking": "separated",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5667042497,
+  "lat": 1.3154630,
+  "lon": 103.7668549,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "325",
+    "addr:postcode": "120325",
+    "addr:street": "Clementi Avenue 5",
+    "amenity": "restaurant",
+    "cuisine": "coffee_shop;regional;chinese",
+    "outdoor_seating": "yes",
+    "smoking": "isolated",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5790566706,
+  "lat": 1.3023698,
+  "lon": 103.9062350,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "84",
+    "addr:neighbourhood": "Marine Drive Promenade",
+    "addr:postcode": "440084",
+    "addr:street": "Marine Parade Central",
+    "air_conditioning": "no",
+    "amenity": "food_court",
+    "check_date": "2023-02-19",
+    "diet:halal": "yes",
+    "diet:vegetarian": "yes",
+    "level": "0",
+    "name": "Marine Parade Food Centre",
+    "name:ms": "Pusat Makanan Marine Parade",
+    "name:zh": "马林百列熟食中心",
+    "operator": "HDB",
+    "outdoor_seating": "yes",
+    "smoking": "isolated",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5912497109,
+  "lat": 1.3799828,
+  "lon": 103.9550047,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "519599",
+    "addr:street": "Pasir Ris Close",
+    "facebook": "https://www.facebook.com/dresortsg/?fref=ts",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "D’Resort @ Downtown East",
+    "operator": "NTUC Club",
+    "phone": "+65 6582 3322",
+    "smoking": "isolated",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.dresort.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 5915054023,
+  "lat": 1.2829636,
+  "lon": 103.8048320,
+  "tags": {
+    "name": "Smoking Point"
+  }
+},
+{
+  "type": "node",
+  "id": 5974136144,
+  "lat": 1.3327885,
+  "lon": 103.8679218,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "148",
+    "addr:postcode": "350148",
+    "addr:street": "Potong Pasir Avenue 1",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:en": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "brand:zh": "麦当劳",
+    "brand:zh-Hans": "麦当劳",
+    "cuisine": "burger",
+    "delivery": "yes",
+    "diet:halal": "yes",
+    "drive_through": "no",
+    "name": "McDonald's",
+    "name:en": "McDonald's",
+    "name:zh": "麦当劳",
+    "name:zh-Hans": "麦当劳",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "operator": "MacDonald",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6081027989,
+  "lat": 1.3732374,
+  "lon": 103.8853527,
+  "tags": {
+    "amenity": "food_court",
+    "internet_access": "no",
+    "name": "Yi Huat Cafe Pte Ltd",
+    "smoking": "separated",
+    "toilets": "yes",
+    "toilets:access": "permissive"
+  }
+},
+{
+  "type": "node",
+  "id": 6211090286,
+  "lat": 1.2834531,
+  "lon": 103.8455290,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "27",
+    "addr:postcode": "059505",
+    "addr:street": "Mosque Street;摩士街",
+    "air_conditioning": "yes",
+    "contact:facebook": "https://www.facebook.com/RICHLODGING/",
+    "email": "digital@galaxypods.com.sg",
+    "guest_house": "hostel",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Galaxy Pods Capsule Hotel (Chinatown)",
+    "opening_hours": "24/7",
+    "operator": "RICH BNB PTE LTD",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+65 6221 1239",
+    "rooms": "52",
+    "smoking": "outside",
+    "tourism": "hostel",
+    "website": "https://galaxypods.com.sg/"
+  }
+},
+{
+  "type": "node",
+  "id": 7395590500,
+  "lat": 1.3331279,
+  "lon": 103.9303948,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housename": "Kaki Bukit 511 Market & Food Centre",
+    "addr:housenumber": "511",
+    "addr:postcode": "460511",
+    "addr:street": "Bedok North Street 3",
+    "amenity": "food_court",
+    "name": "Bedok 511 Food Centre",
+    "name:ms": "Pusat Makanan Bedok 511",
+    "name:zh": "勿洛511熟食中心",
+    "outdoor_seating": "yes",
+    "smoking": "separated"
+  }
+},
+{
+  "type": "node",
+  "id": 8568762136,
+  "lat": 1.2666534,
+  "lon": 103.8060980,
+  "tags": {
+    "access": "yes",
+    "bench": "no",
+    "bin": "yes",
+    "covered": "no",
+    "leisure": "bird_hide",
+    "smoking": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9671017340,
+  "lat": 1.2926107,
+  "lon": 103.8489845,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "23A",
+    "addr:postcode": "179806",
+    "addr:street": "Coleman Street",
+    "air_conditioning": "yes",
+    "amenity": "events_venue",
+    "contact:facebook": "https://facebook.com/themasonstable",
+    "email": "info@themasonstable.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "level": "0",
+    "name": "The Masons Table",
+    "operator": "Jaxs Pte. Ltd.",
+    "payment:american_express": "yes",
+    "payment:apple_pay": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:google_pay": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+65 8839 6627",
+    "smoking": "isolated",
+    "source": "local knowledge",
+    "start_date": "2018-12",
+    "website": "https://www.themasonstable.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9858449357,
+  "lat": 1.3003618,
+  "lon": 103.8520060,
+  "tags": {
+    "addr:housenumber": "190",
+    "addr:street": "Middle Road",
+    "addr:unit": "01-10",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "brand": "Yuen Kee Dumpling",
+    "brand:en": "Yuen Kee Dumpling",
+    "brand:wikidata": "Q123027117",
+    "brand:zh": "袁记云饺",
+    "brand:zh-Hans": "袁记云饺",
+    "brand:zh-Hant": "袁記雲餃",
+    "check_date": "2024-12-21",
+    "cuisine": "jiaozi",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "internet_access": "no",
+    "level": "0",
+    "name": "Yuen Kee Dumpling",
+    "name:en": "Yuen Kee Dumpling",
+    "name:zh": "袁记云饺",
+    "name:zh-Hans": "袁记云饺",
+    "name:zh-Hant": "袁記雲餃",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:grabpay": "yes",
+    "payment:mastercard": "yes",
+    "payment:nets": "yes",
+    "payment:paynow": "yes",
+    "payment:visa": "yes",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10298236706,
+  "lat": 1.3574727,
+  "lon": 103.8442937,
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "280",
+    "addr:street": "Bishan Street 24",
+    "amenity": "food_court",
+    "check_date": "2023-01-01",
+    "diet:halal": "yes",
+    "diet:vegetarian": "yes",
+    "internet_access": "no",
+    "name": "Kimly Coffeeshop",
+    "operator": "Kimly",
+    "outdoor_seating": "yes",
+    "smoking": "separated",
+    "source": "survey",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12404396081,
+  "lat": 1.2803771,
+  "lon": 103.8451732,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:postcode": "069183",
+    "addr:street": "Kadayanallur Street",
+    "air_conditioning": "yes",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "level": "3",
+    "name": "Habyt Kada at Maxwell",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "phone": "+65 9478 5529",
+    "rooms": "18",
+    "smoking": "outside",
+    "tourism": "apartment",
+    "website": "https://kada.habyt.com/?utm_source=google-ads&utm_medium=cpc&utm_campaign=gg-hotel-sg-sg-en-sg-sem-cantonment&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkWif9TuPURTaXpWCFclNYr9i34vP3ee2f0FLyOqALRJETKWh-1Sq0UaAqYMEALw_wcB"
+  }
+},
+{
+  "type": "way",
+  "id": 41662296,
+  "center": {
+    "lat": 1.3120970,
+    "lon": 103.8395278
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "500",
+    "addr:postcode": "229495",
+    "addr:street": "Clemenceau Avenue North",
+    "amenity": "food_court",
+    "building": "commercial",
+    "name": "Newton Food Centre",
+    "name:ms": "Pusat Makanan Newton",
+    "name:zh": "纽顿熟食中心",
+    "opening_hours": "Mo-Su 00:00-02:00,12:00-24:00",
+    "operator": "Government of Singapore",
+    "outdoor_seating": "yes",
+    "roof:colour": "#954a50",
+    "roof:shape": "gabled",
+    "smoking": "isolated",
+    "source": "https://en.wikipedia.org/wiki/Newton_Food_Centre",
+    "wikidata": "Q14874460",
+    "wikipedia": "en:Newton Food Centre"
+  }
+},
+{
+  "type": "way",
+  "id": 46595145,
+  "center": {
+    "lat": 1.2945257,
+    "lon": 103.8579722
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "5",
+    "addr:postcode": "038985",
+    "addr:street": "Temasek Boulevard",
+    "building": "office",
+    "height": "0",
+    "name": "Suntec Tower 5",
+    "smoking": "outside",
+    "start_date": "1997"
+  }
+},
+{
+  "type": "way",
+  "id": 46649287,
+  "center": {
+    "lat": 1.2764886,
+    "lon": 103.8017511
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "450",
+    "addr:postcode": "119960",
+    "addr:street": "Alexandra Road",
+    "building": "commercial",
+    "height": "0",
+    "name": "HPE Alexandra Sales (HPAS)",
+    "smoking": "separated",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 94642393,
+  "center": {
+    "lat": 1.3414851,
+    "lon": 103.6907340
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "959",
+    "addr:postcode": "640959",
+    "addr:street": "Jurong West Street 92",
+    "building": "shophouse",
+    "building:levels": "1",
+    "commercial": "HDB",
+    "height": "0",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "way",
+  "id": 154249626,
+  "center": {
+    "lat": 1.4434710,
+    "lon": 103.7769690
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "20",
+    "addr:postcode": "730020",
+    "addr:street": "Marsiling Lane",
+    "amenity": "food_court",
+    "building": "public",
+    "building:levels": "1",
+    "name": "Marsiling Lane Cooked Food Centre",
+    "name:ms": "Pusat Makanan Marsiling Lane",
+    "name:zh": "马西岭巷熟食中心",
+    "opening_hours": "Mo-Sa 07:00-12:00",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "way",
+  "id": 155953625,
+  "center": {
+    "lat": 1.3275845,
+    "lon": 103.8706131
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "60",
+    "addr:postcode": "348615",
+    "addr:street": "MacPherson Road",
+    "building": "commercial",
+    "building:levels": "14",
+    "name": "The Siemens Centre, Tower Block",
+    "phone": "+65 6490 6000",
+    "smoking": "isolated",
+    "website": "https://www.siemens.com.sg/siemenscenter/siemens_map.asp"
+  }
+},
+{
+  "type": "way",
+  "id": 159679953,
+  "center": {
+    "lat": 1.2967161,
+    "lon": 103.8545727
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "410",
+    "addr:postcode": "188726",
+    "addr:street": "North Bridge Road",
+    "building": "commercial",
+    "building:levels": "6",
+    "height": "34",
+    "smoking": "outside",
+    "start_date": "1991"
+  }
+},
+{
+  "type": "way",
+  "id": 159814559,
+  "center": {
+    "lat": 1.2986707,
+    "lon": 103.7889644
+  },
+  "tags": {
+    "building:levels": "18",
+    "landuse": "commercial",
+    "name": "Fusionopolis 2A",
+    "name:zh": "启汇城 2A",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "way",
+  "id": 164177180,
+  "center": {
+    "lat": 1.2958401,
+    "lon": 103.8554968
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "15",
+    "addr:postcode": "189677",
+    "addr:street": "Beach Road",
+    "building": "commercial",
+    "building:levels": "6",
+    "description": "Coworking space: GREE Ventures Asia's Singapore office",
+    "height": "36",
+    "name": "Wework Beach Centre",
+    "smoking": "outside",
+    "source": "local knowledge",
+    "start_date": "1985"
+  }
+},
+{
+  "type": "way",
+  "id": 172481806,
+  "center": {
+    "lat": 1.2767809,
+    "lon": 103.8009480
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "452",
+    "addr:postcode": "119961",
+    "addr:street": "Alexandra Road",
+    "building": "commercial",
+    "height": "0",
+    "name": "HP Alexandra Manufacturing (HPAM)",
+    "smoking": "separated",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 172748958,
+  "center": {
+    "lat": 1.2914508,
+    "lon": 103.8393977
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "65",
+    "addr:postcode": "239003",
+    "addr:street": "Mohamed Sultan Road",
+    "alt_name": "SQ Collective AI Labs",
+    "building": "commercial",
+    "building:levels": "4",
+    "description": "Co-working space and community for AI builders and founders. Open 24/7 for members.",
+    "name": "SQ Collective",
+    "operator": "SQ Collective Pte. Ltd",
+    "phone": "+65 8026 7672",
+    "smoking": "outside",
+    "source": "Bing",
+    "website": "https://www.sq-collective.com"
+  }
+},
+{
+  "type": "way",
+  "id": 172775170,
+  "center": {
+    "lat": 1.2876884,
+    "lon": 103.8490145
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "12",
+    "addr:postcode": "049368",
+    "addr:street": "Circular Road",
+    "air_conditioning": "yes",
+    "building": "commercial",
+    "contact:facebook": "https://www.facebook.com/RICHLODGING/",
+    "description": "Conveniently set in the centre of Singapore, Galaxy Pods Capsule Hotel Boat Quay provides air-conditioned rooms, a shared lounge, free WiFi and a terrace.",
+    "email": "digital@galaxypods.com.sg",
+    "guest_house": "hostel",
+    "image": "https://www.google.com/travel/hotels/entity/CgkIypn9yIye0moQAQ/lightbox/CAoSLEFGMVFpcE0zZzRaazRqb3FpeUhBMGRaVlhKZ1JMSWI3UHJ6Y1pQcGdlZ3Np?g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4874190%2C4893075%2C492",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Galaxy Pods Capsule Hotel (Boat Quay)",
+    "operator": "RICH BNB PTE LTD",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+65 8878 8756",
+    "roof:colour": "#ff3333",
+    "rooms": "40",
+    "smoking": "outside",
+    "source": "Bing;local knowledge",
+    "tourism": "hostel",
+    "website": "https://www.galaxypods.com.sg"
+  }
+},
+{
+  "type": "way",
+  "id": 173235507,
+  "center": {
+    "lat": 1.3796915,
+    "lon": 103.9551331
+  },
+  "tags": {
+    "landuse": "commercial",
+    "leisure": "resort",
+    "name": "D’Resort @ Downtown East",
+    "operator": "NTUC Club",
+    "smoking": "separated",
+    "website": "https://www.dresort.com.sg/"
+  }
+},
+{
+  "type": "way",
+  "id": 184914358,
+  "center": {
+    "lat": 1.3084361,
+    "lon": 103.8519840
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "3",
+    "addr:postcode": "219924",
+    "addr:street": "Belilios Road",
+    "brand": "Hilton Garden Inn",
+    "brand:wikidata": "Q1162859",
+    "building": "hotel",
+    "check_date": "2025-11-23",
+    "contact:facebook": "https://www.facebook.com/hgisingaporeserangoon",
+    "email": "singi.hotel@hilton.com",
+    "fax": "+65 6491 0501",
+    "height": "0",
+    "internet_access": "yes",
+    "name": "Hilton Garden Inn Singapore Serangoon",
+    "opening_hours": "24/7",
+    "operator": "Hilton",
+    "phone": "+65 6491 0500",
+    "rooms": "328",
+    "smoking": "isolated",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://www.hilton.com/en/hotels/singigi-hilton-garden-inn-singapore-serangoon/?WT.mc_id=zDA0SG1GI2DMH3LocalSearch4DGGeneric_Apr56SINGIGI7EN8i1",
+    "wheelchair": "yes",
+    "wikidata": "Q64827562"
+  }
+},
+{
+  "type": "way",
+  "id": 190945077,
+  "center": {
+    "lat": 1.3006610,
+    "lon": 103.8591044
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "23",
+    "addr:street": "Haji Lane",
+    "building": "commercial",
+    "building:levels": "1",
+    "image": "https://images.mapillary.com/6-L2ZEYJvU883I7-zVjEsg/thumb-2048.jpg",
+    "mapillary": "3064627890431730",
+    "smoking": "outside",
+    "source": "Bing",
+    "website": "https://cad.sg/"
+  }
+},
+{
+  "type": "way",
+  "id": 201904037,
+  "center": {
+    "lat": 1.3167274,
+    "lon": 103.8982200
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "1",
+    "addr:postcode": "402001",
+    "addr:street": "Geylang Serai",
+    "building": "commercial",
+    "building:levels": "2",
+    "commercial": "HDB",
+    "name": "Geylang Serai Food Market",
+    "roof:material": "roof_tiles",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "way",
+  "id": 228363265,
+  "center": {
+    "lat": 1.3068183,
+    "lon": 103.7869113
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "10b",
+    "addr:postcode": "139259",
+    "addr:street": "Rochester Park",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "brand": "Hui Oriental",
+    "building": "commercial",
+    "building:levels": "2",
+    "cuisine": "chinese;french",
+    "diet:local": "yes",
+    "diet:meat": "yes",
+    "height": "6",
+    "name": "Hui Oriental Rochester",
+    "name:zh": "汇",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+6588211150",
+    "reservation": "yes",
+    "smoking": "outside",
+    "source": "local knowledge",
+    "website": "https://hui.restaurant/"
+  }
+},
+{
+  "type": "way",
+  "id": 261019253,
+  "center": {
+    "lat": 1.3255879,
+    "lon": 103.8490317
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "411",
+    "addr:postcode": "329930",
+    "addr:street": "Balestier Road",
+    "air_conditioning": "no",
+    "alt_name": "Balestier Food Centre",
+    "amenity": "food_court",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-11-05",
+    "cuisine": "regional;chinese;thai;dessert;noodle",
+    "internet_access": "no",
+    "name": "Balestier Market",
+    "name:ms": "Pasar Balestier",
+    "opening_hours": "24/7",
+    "outdoor_seating": "yes",
+    "roof:levels": "0",
+    "roof:shape": "many",
+    "smoking": "separated",
+    "source": "Kaart Ground Survey 2017",
+    "toilets": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q107803632",
+    "year_of_construction": "1922"
+  }
+},
+{
+  "type": "way",
+  "id": 261531462,
+  "center": {
+    "lat": 1.3230655,
+    "lon": 103.8549987
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "90",
+    "addr:postcode": "320090",
+    "addr:street": "Whampoa Drive",
+    "air_conditioning": "no",
+    "amenity": "food_court",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2023-06-02",
+    "diet:halal": "yes",
+    "level": "0",
+    "name": "Whampoa Makan Place",
+    "opening_hours": "24/7",
+    "operator": "National Environment Agency",
+    "outdoor_seating": "yes",
+    "pet": "no",
+    "smoking": "separated",
+    "survey:date": "2020-11-15",
+    "wheelchair": "yes",
+    "wikidata": "Q107804009",
+    "wikipedia": "en:Whampoa Makan Place"
+  }
+},
+{
+  "type": "way",
+  "id": 372153152,
+  "center": {
+    "lat": 1.2770333,
+    "lon": 103.8419461
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "080001",
+    "addr:street": "Cantonment Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "ele": "-2",
+    "name": "Essen @ The Pinnacle",
+    "opening_hours": "10:30-23:00",
+    "phone": "+65 6727 6066",
+    "smoking": "separated",
+    "source": "https://www.facebook.com/EssenThePinnacle/",
+    "start_date": "2009",
+    "website": "https://www.facebook.com/EssenThePinnacle/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 440444769,
+  "center": {
+    "lat": 1.2831742,
+    "lon": 103.8055447
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "1A",
+    "addr:postcode": "109842",
+    "addr:street": "Depot Close",
+    "building": "commercial",
+    "building:levels": "8",
+    "name": "HP",
+    "smoking": "isolated",
+    "source": "Mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 503910614,
+  "center": {
+    "lat": 1.2824182,
+    "lon": 103.8050212
+  },
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Depot Close",
+    "building": "commercial",
+    "building:levels": "11",
+    "name": "Hewlett-Packard Enterprise",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "way",
+  "id": 569795940,
+  "center": {
+    "lat": 1.2868932,
+    "lon": 103.8138937
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "internet_access": "no",
+    "name": "Alicafe",
+    "smoking": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 668443001,
+  "center": {
+    "lat": 1.3435289,
+    "lon": 103.7750557
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:country": "SG",
+    "addr:housenumber": "20",
+    "addr:postcode": "599744",
+    "addr:street": "Cheong Chin Nam Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "barbecue",
+    "name": "OMMA Korean Charcoal BBQ - Bukit Timah",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "way",
+  "id": 981964001,
+  "center": {
+    "lat": 1.3062167,
+    "lon": 103.7926630
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "1",
+    "addr:postcode": "139691",
+    "addr:street": "North Buona Vista Link",
+    "architect": "SKIDMORE, OWINGS & MERRILL",
+    "building": "commercial",
+    "building:levels": "12",
+    "description": "Since its inception in the early 2000s, Elementum, part of the One-North innovation district within the Buona Vista neighborhood, has been at the center of Singapore's thriving biomedical industry. Over several phases of development, the research hub has",
+    "name": "Elementum",
+    "smoking": "isolated"
+  }
+},
+{
+  "type": "way",
+  "id": 1451269066,
+  "center": {
+    "lat": 1.3070319,
+    "lon": 103.8512473
+  },
+  "tags": {
+    "area": "yes",
+    "name": "Smoking Area",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1513448019,
+  "center": {
+    "lat": 1.4009688,
+    "lon": 103.7479662
+  },
+  "tags": {
+    "addr:city": "Singapore",
+    "addr:housenumber": "673B",
+    "addr:postcode": "682673",
+    "addr:street": "Choa Chu Kang Drive",
+    "amenity": "food_court",
+    "building": "retail",
+    "name": "NTUC Foodfare",
+    "opening_hours": "00:00-24:00",
+    "operator": "NTUC",
+    "outdoor_seating": "terrace",
+    "smoking": "outside"
+  }
+}
+
+  ]
+}
