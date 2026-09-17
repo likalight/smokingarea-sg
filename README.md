@@ -108,11 +108,21 @@ It lands here on the next `npm run data`.
 
 ## Deploying
 
-Point any static host at `public/`. Nothing to configure.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flikalight%2Fsmokingarea-sg)
 
-- **Cloudflare Pages / Netlify / Vercel** — build command empty, publish directory `public`.
-- `netlify.toml` and `vercel.json` are included with sane cache headers (immutable data files,
-  short-lived HTML).
+There is no build step. `vercel.json` sets `framework: null` and `outputDirectory: public`, so the
+folder is served as-is, and `.vercelignore` keeps `raw/` — ~16MB of build-time downloads the site
+never touches — out of the upload.
+
+From the CLI instead:
+
+```bash
+npx vercel login
+npx vercel --prod --yes
+```
+
+- **Cloudflare Pages / Netlify** — build command empty, publish directory `public`.
+  `netlify.toml` carries the same cache headers as `vercel.json`.
 
 For the real `smokingarea.sg` domain you'll need a `.sg` registrar — SGNIC accredited ones include
 Vodien, Exabytes and Namecheap. `.sg` has no local-presence requirement for individuals.
